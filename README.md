@@ -12,6 +12,7 @@ The simulation runs a minute-by-minute model of a bubble tea shop. Each minute, 
 ### Five Real-World Extensions
 
 | # | Extension | Description |
+
 | 1 | **Rush Hour** | Arrival probability doubles between minutes 150–210 |
 | 2 | **Two Drink Types** | 60% simple orders (2–4 min), 40% complex orders (4–7 min) |
 | 3 | **Worker Break** | One worker is unavailable from minutes 240–270 |
@@ -38,6 +39,7 @@ Changes one variable at a time with all extensions active:
 ## Output Metrics
 
 | Metric | Description |
+
 | `avg_wait` | Average customer wait time (minutes) |
 | `avg_queue` | Average queue length across the day |
 | `max_queue` | Peak queue length recorded |
