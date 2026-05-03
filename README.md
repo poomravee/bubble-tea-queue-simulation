@@ -13,11 +13,11 @@ The simulation runs a minute-by-minute model of a bubble tea shop. Each minute, 
 
 | # | Extension | Description |
 
- 1  **Rush Hour** | Arrival probability doubles between minutes 150–210 |
- 2  **Two Drink Types** | 60% simple orders (2–4 min), 40% complex orders (4–7 min) |
- 3  **Worker Break** | One worker is unavailable from minutes 240–270 |
- 4  **Mobile Orders** | 10% chance per minute of an additional mobile order arriving |
- 5  **Congestion Slowdown** | When 5+ customers are queued, service time increases 1.5× |
+ 1.  **Rush Hour** - Arrival probability doubles between minutes 150–210 |
+ 2.  **Two Drink Types** - 60% simple orders (2–4 min), 40% complex orders (4–7 min) |
+ 3.  **Worker Break** - One worker is unavailable from minutes 240–270 |
+ 4.  **Mobile Orders** - 10% chance per minute of an additional mobile order arriving |
+ 5.  **Congestion Slowdown** - When 5+ customers are queued, service time increases 1.5× |
 
 ## Experiments
 
